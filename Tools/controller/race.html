@@ -149,7 +149,7 @@ thr.onpointermove = (e) => { if (e.buttons) setThrottle(e); };
 let lastErr = '';
 window.onerror = (m) => { lastErr = String(m); };
 setInterval(() => {
-  if (ws && ws.readyState === 1) ws.send(JSON.stringify({ diag: `perm:${perm} started:${started} secure:${window.isSecureContext} events:${rawEvents} null:${nullEvents} tilt:${tilt.toFixed(1)} err:${lastErr} DOE:${typeof DeviceOrientationEvent} ${location.href} ${navigator.userAgent}` }));
+  if (ws && ws.readyState === 1) ws.send(JSON.stringify({ diag: `app:${window.appVersion || '-'} perm:${perm} started:${started} secure:${window.isSecureContext} events:${rawEvents} null:${nullEvents} tilt:${tilt.toFixed(1)} err:${lastErr} DOE:${typeof DeviceOrientationEvent} ${location.href} ${navigator.userAgent}` }));
 }, 1000);
 
 // --- Send ~30 Hz + debug readout ---
@@ -160,7 +160,7 @@ setInterval(() => {
   const d = $('dbg');
   d.classList.toggle('off', !(ws && ws.readyState === 1) || !haveOrientation);
   d.textContent = `ws:${ws && ws.readyState === 1 ? 'ok' : 'down'} orient:${haveOrientation ? 'ok' : 'none'} tilt:${tilt.toFixed(1)}° zero:${zero.toFixed(1)}°\n`
-    + `perm:${perm} started:${started} secure:${window.isSecureContext} events:${rawEvents} null:${nullEvents} ${location.protocol}//${location.host}\n${msg}`;
+    + `app:${window.appVersion || '-'} perm:${perm} started:${started} secure:${window.isSecureContext} events:${rawEvents} null:${nullEvents} ${location.protocol}//${location.host}\n${msg}`;
 }, 33);
 </script>
 </body>

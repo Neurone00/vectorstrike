@@ -38,15 +38,17 @@ public final class Updater {
                 JSONObject rel = new JSONObject(body);
                 String tag = rel.getString("tag_name").replaceFirst("^controller-v", "");
                 String mine = a.getPackageManager().getPackageInfo(a.getPackageName(), 0).versionName;
-                if (!newer(tag, mine)) return;
+                if (!newer(tag, mine)) { say(a, "Controller v" + mine + " is up to date"); return; }
                 JSONArray assets = rel.getJSONArray("assets");
                 for (int i = 0; i < assets.length(); i++) {
                     JSONObject as = assets.getJSONObject(i);
                     if (as.getString("name").endsWith(".apk")) { a.runOnUiThread(() -> download(a, tag, as.optString("browser_download_url"))); return; }
                 }
-            } catch (Exception ignored) { /* offline or rate-limited: try again next launch */ }
+            } catch (Exception e) { say(a, "Update check failed: " + e); /* offline or rate-limited: next launch */ }
         }).start();
     }
+
+    static void say(Activity a, String msg) { a.runOnUiThread(() -> Toast.makeText(a, msg, Toast.LENGTH_LONG).show()); }
 
     static boolean newer(String remote, String local) {
         String[] r = remote.split("\\."), l = local.split("\\.");

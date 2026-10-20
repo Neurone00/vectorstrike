@@ -26,6 +26,11 @@ public class MainActivity extends Activity implements SensorEventListener {
         web.getSettings().setDomStorageEnabled(true);   // localStorage keeps the server address
         web.setBackgroundColor(0xFF15171A);
         setContentView(web);
+        web.setWebViewClient(new android.webkit.WebViewClient() {
+            @Override public void onPageFinished(WebView v, String url) {
+                try { v.evaluateJavascript("window.appVersion='" + getPackageManager().getPackageInfo(getPackageName(), 0).versionName + "'", null); } catch (Exception ignored) {}
+            }
+        });
         web.loadUrl("file:///android_asset/race.html");
         sensors = (SensorManager) getSystemService(SENSOR_SERVICE);
         Updater.check(this);
