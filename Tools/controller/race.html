@@ -22,11 +22,20 @@
   #thr { grid-column: 4; grid-row: 1 / 3; position: relative; border: 2px solid #3a3f45; border-radius: 14px; background: #1c1f23; overflow: hidden; }
   #thrFill { position: absolute; left: 0; right: 0; bottom: 0; height: 0%; background: linear-gradient(#17e6ff, #0f7f8c); }
   #thrVal { position: absolute; left: 0; right: 0; top: 8px; text-align: center; font-weight: 900; color: #e8e2d2; mix-blend-mode: difference; }
+  @media (orientation: landscape) {
+    .bar { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .bar .row { margin-top: 0 !important; }
+    #dbg { grid-column: 1 / 3; height: 3em; font-size: 10px; }
+    button { min-height: 44px; }
+    #main { grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) 90px; grid-template-rows: 1fr; }
+    #abL, #abR, #boost, #pulse, #thr { grid-row: 1; }
+    #abL { grid-column: 1; } #boost { grid-column: 2; } #pulse { grid-column: 3; } #abR { grid-column: 4; } #thr { grid-column: 5; }
+  }
 </style>
 </head>
 <body>
 <div id="app">
-  <div>
+  <div class="bar">
     <div class="row">
       <input id="host" placeholder="mac ip:8080" inputmode="decimal" style="display:none;flex:1.6;min-width:0;min-height:56px;border:2px solid #3a3f45;border-radius:10px;background:#23272c;color:inherit;font:inherit;padding:0 10px">
       <button id="start">Start</button>
@@ -89,7 +98,7 @@ function onOrient(e) {
   if (e.gamma == null) { nullEvents++; return; }
   applyTilt(e.gamma, e.beta);
 }
-window.nativeTilt = (gamma, beta) => { rawEvents++; applyTilt(gamma, beta); };  // called by the Android shell
+window.nativeTilt = (deg) => { rawEvents++; applyTilt(deg, deg); };  // Android shell: steering angle, landscape frame
 $('start').onclick = async () => {
   if (APP) { try { localStorage.sv_host = $('host').value.trim(); } catch {} connect(); started = true; $('start').classList.add('on'); $('start').textContent = 'Live'; return; }
   try {

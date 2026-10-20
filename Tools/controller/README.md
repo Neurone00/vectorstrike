@@ -46,7 +46,7 @@ cd Tools/controller/android && gradle assembleDebug
 ```
 
 Install: download the APK from the GitHub release
-https://github.com/Neurone00/vectorstrike/releases/tag/controller-v0.1 on the phone and open it
+https://github.com/Neurone00/vectorstrike/releases/latest on the phone and open it
 (allow "install unknown apps" for the browser once). Alternatives: with the server running,
 `http://<mac-ip>:8080/app.apk` serves the freshly built APK; or `adb install -r
 app/build/outputs/apk/debug/app-debug.apk` over USB. New build → `gh release create controller-vX.Y <apk>`. In the app type the Mac's `ip:8080` in the field and tap Start;

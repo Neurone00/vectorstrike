@@ -15,7 +15,7 @@ import android.webkit.WebView;
 public class MainActivity extends Activity implements SensorEventListener {
     private WebView web;
     private SensorManager sensors;
-    private final float[] rot = new float[9], orient = new float[3];
+    private final float[] rot = new float[9];
     private long lastPush = 0;
 
     @Override protected void onCreate(Bundle saved) {
@@ -45,10 +45,12 @@ public class MainActivity extends Activity implements SensorEventListener {
         if (now - lastPush < 25) return;              // ~40 Hz is plenty for a 30 Hz send loop
         lastPush = now;
         SensorManager.getRotationMatrixFromVector(rot, e.values);
-        SensorManager.getOrientation(rot, orient);    // [azimuth, pitch, roll] in radians
-        float beta = (float) Math.toDegrees(-orient[1]);   // front/back tilt, like DeviceOrientation beta
-        float gamma = (float) Math.toDegrees(orient[2]);   // left/right roll, like DeviceOrientation gamma
-        web.evaluateJavascript("window.nativeTilt&&nativeTilt(" + gamma + "," + beta + ")", null);
+        // Third row of the rotation matrix = "up" in device coordinates. The activity is locked to
+        // landscape (device +Y points left), so the steering-wheel tilt is how far "up" leans along
+        // device Y: right side down -> up leans to +Y -> positive angle. Works held flat or upright.
+        float y = Math.max(-1f, Math.min(1f, rot[7]));
+        float steerDeg = (float) Math.toDegrees(Math.asin(y));
+        web.evaluateJavascript("window.nativeTilt&&nativeTilt(" + steerDeg + ")", null);
     }
 
     @Override public void onAccuracyChanged(Sensor sensor, int accuracy) {}
