@@ -1,0 +1,25 @@
+{
+  "status": "first art model, unapproved",
+  "blender": "4.5.0",
+  "source_axes": "X right, Y front, Z up",
+  "bounds_min": [
+    -1.75,
+    -2.819999933242798,
+    0.02013273350894451
+  ],
+  "bounds_max": [
+    1.75,
+    2.815000057220459,
+    1.5199999809265137
+  ],
+  "dimensions_m": [
+    3.5,
+    5.634999990463257,
+    1.4998672474175692
+  ],
+  "mesh_objects": 211,
+  "triangles": 15746,
+  "materials": 12,
+  "procedural_wear": "Blender preview only; GLB exports flat material colors plus modeled paint chips",
+  "engine_import_tested": false
+}

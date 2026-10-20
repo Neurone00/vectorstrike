@@ -1,0 +1,1 @@
+{ "name": "SV.Editor", "rootNamespace": "SV.Editor", "references": ["SV"], "includePlatforms": ["Editor"], "autoReferenced": true }

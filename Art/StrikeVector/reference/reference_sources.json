@@ -1,0 +1,22 @@
+{
+  "xcom_eu": {
+    "source": "https://www.gematsu.com/2012/09/xcom-enemy-unknown-gameplay-walkthrough",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "xcom2": {
+    "source": "https://store.2k.com/game/buy-xcom-2-pc?drm=Xbox",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "wipeout": {
+    "source": "https://blog.playstation.com/2017/03/30/wipeout-omega-collection-coming-to-ps4-on-june-6th/",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "mass_effect": {
+    "source": "https://www.ea.com/games/mass-effect/mass-effect-legendary-edition",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "shipbreaker": {
+    "source": "https://www.focus-entmt.com/en/games/hardspace-shipbreaker",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  }
+}

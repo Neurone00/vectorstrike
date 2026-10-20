@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="1536 512 512 512">
+<polygon points="76.00,282.00 276.00,130.00 219.00,260.00 432.00,204.00 305.00,390.00 330.00,283.00 151.00,347.00" fill="#C9D657" stroke="none" stroke-width="2"/>
+<polyline points="118.00,355.00 110.00,422.00" fill="none" stroke="#C9D657" stroke-width="10"/>
+<polyline points="190.00,349.00 195.00,390.00" fill="none" stroke="#C9D657" stroke-width="6"/>
+<polyline points="642.00,130.00 625.00,376.00" fill="none" stroke="#B8B09A" stroke-width="18"/>
+<polyline points="712.00,130.00 695.00,376.00" fill="none" stroke="#B8B09A" stroke-width="18"/>
+<polyline points="782.00,130.00 765.00,376.00" fill="none" stroke="#B8B09A" stroke-width="18"/>
+<polyline points="852.00,130.00 835.00,376.00" fill="none" stroke="#B8B09A" stroke-width="18"/>
+<polyline points="594.00,340.00 932.00,192.00" fill="none" stroke="#B8B09A" stroke-width="18"/>
+<text x="1104" y="329.3" font-family="Arial, sans-serif" font-size="230" font-weight="700" fill="#B8B09A">01</text>
+<text x="1616" y="329.3" font-family="Arial, sans-serif" font-size="230" font-weight="700" fill="#B8B09A">02</text>
+<text x="80" y="841.3" font-family="Arial, sans-serif" font-size="230" font-weight="700" fill="#B8B09A">03</text>
+<text x="592" y="841.3" font-family="Arial, sans-serif" font-size="230" font-weight="700" fill="#B8B09A">04</text>
+<polygon points="1114.00,634.00 1236.00,762.00 1114.00,890.00 1167.00,890.00 1289.00,762.00 1167.00,634.00" fill="#C18A32" stroke="none" stroke-width="2"/>
+<polygon points="1264.00,634.00 1386.00,762.00 1264.00,890.00 1317.00,890.00 1439.00,762.00 1317.00,634.00" fill="#C18A32" stroke="none" stroke-width="2"/>
+<rect x="1600" y="612" width="384" height="312" fill="#C18A32" stroke="none" stroke-width="1"/>
+<polygon points="1600.00,612.00 1648.00,612.00 1696.00,924.00 1648.00,924.00" fill="#252C30" stroke="none" stroke-width="2"/>
+<polygon points="1696.00,612.00 1744.00,612.00 1792.00,924.00 1744.00,924.00" fill="#252C30" stroke="none" stroke-width="2"/>
+<polygon points="1792.00,612.00 1840.00,612.00 1888.00,924.00 1840.00,924.00" fill="#252C30" stroke="none" stroke-width="2"/>
+<polygon points="1888.00,612.00 1936.00,612.00 1984.00,924.00 1936.00,924.00" fill="#252C30" stroke="none" stroke-width="2"/>
+</svg>

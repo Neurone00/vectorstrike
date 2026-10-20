@@ -1,0 +1,149 @@
+{
+  "size_px": [
+    2048,
+    1024
+  ],
+  "color_space": "sRGB color, straight alpha",
+  "status": "authored visual asset; not imported or verified in Unity",
+  "svg_text_font": "Arial Bold; raster PNG resolves font appearance",
+  "origin_px": "top-left",
+  "uv_order": "u_min,v_min,u_max,v_max; UV origin bottom-left",
+  "cells": [
+    {
+      "id": "crew_arrow",
+      "cell_px": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "safe_inset_px": 48,
+      "uv_bottom_left": [
+        0.0,
+        0.5,
+        0.25,
+        1.0
+      ],
+      "individual_png": "Art/StrikeVector/assets/decals/SV_GFX_crew_arrow_v001.png"
+    },
+    {
+      "id": "tallies",
+      "cell_px": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "safe_inset_px": 48,
+      "uv_bottom_left": [
+        0.25,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "individual_png": "Art/StrikeVector/assets/decals/SV_GFX_tallies_v001.png"
+    },
+    {
+      "id": "number_01",
+      "cell_px": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "safe_inset_px": 48,
+      "uv_bottom_left": [
+        0.5,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "individual_png": "Art/StrikeVector/assets/decals/SV_GFX_number_01_v001.png"
+    },
+    {
+      "id": "number_02",
+      "cell_px": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "safe_inset_px": 48,
+      "uv_bottom_left": [
+        0.75,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "individual_png": "Art/StrikeVector/assets/decals/SV_GFX_number_02_v001.png"
+    },
+    {
+      "id": "number_03",
+      "cell_px": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "safe_inset_px": 48,
+      "uv_bottom_left": [
+        0.0,
+        0.0,
+        0.25,
+        0.5
+      ],
+      "individual_png": "Art/StrikeVector/assets/decals/SV_GFX_number_03_v001.png"
+    },
+    {
+      "id": "number_04",
+      "cell_px": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "safe_inset_px": 48,
+      "uv_bottom_left": [
+        0.25,
+        0.0,
+        0.5,
+        0.5
+      ],
+      "individual_png": "Art/StrikeVector/assets/decals/SV_GFX_number_04_v001.png"
+    },
+    {
+      "id": "direction_chevrons",
+      "cell_px": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "safe_inset_px": 48,
+      "uv_bottom_left": [
+        0.5,
+        0.0,
+        0.75,
+        0.5
+      ],
+      "individual_png": "Art/StrikeVector/assets/decals/SV_GFX_direction_chevrons_v001.png"
+    },
+    {
+      "id": "hazard_patch",
+      "cell_px": [
+        1536,
+        512,
+        512,
+        512
+      ],
+      "safe_inset_px": 48,
+      "uv_bottom_left": [
+        0.75,
+        0.0,
+        1.0,
+        0.5
+      ],
+      "individual_png": "Art/StrikeVector/assets/decals/SV_GFX_hazard_patch_v001.png"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1250" viewBox="0 0 2048 1250">
+<rect x="0" y="0" width="2048" height="1250" fill="#252C30" stroke="none" stroke-width="1"/>
+<image href="../../assets/decals/SV_GFX_Markings_Atlas_v001.png" x="0" y="70" width="2048" height="1024"/>
+<text x="50" y="515.02" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#E8E3D7">CREW_ARROW</text>
+<text x="562" y="515.02" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#E8E3D7">TALLIES</text>
+<text x="1074" y="515.02" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#E8E3D7">NUMBER_01</text>
+<text x="1586" y="515.02" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#E8E3D7">NUMBER_02</text>
+<text x="50" y="1027.02" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#E8E3D7">NUMBER_03</text>
+<text x="562" y="1027.02" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#E8E3D7">NUMBER_04</text>
+<text x="1074" y="1027.02" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#E8E3D7">DIRECTION_CHEVRONS</text>
+<text x="1586" y="1027.02" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#E8E3D7">HAZARD_PATCH</text>
+<text x="50" y="45.66" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#79DDD0">REF_08 / ORIGINAL CREW MARKINGS / 2048 x 1024 transparent atlas</text>
+<text x="50" y="1180.02" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#E8E3D7">One tag + tallies + race numbers 01-04 + direction chevrons + hazard patch. No lighting baked in.</text>
+</svg>

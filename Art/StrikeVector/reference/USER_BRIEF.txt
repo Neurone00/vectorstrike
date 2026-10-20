@@ -1,0 +1,378 @@
+# PROJECT: STRIKE VECTOR
+## Art Direction & 3D Visual Development for a Sci-Fi Racing RPG
+
+Act as a senior video game art director, concept artist,
+technical artist, and 3D environment designer.
+
+I am developing a proof of concept for a multiplayer
+sci-fi racing RPG.
+
+Your job is to help me establish a distinctive, consistent,
+production-friendly visual identity and begin translating
+that identity into actual 3D game assets.
+
+I want you to act as a creative partner, not simply
+produce a generic moodboard.
+
+Work toward tangible visual results.
+
+---
+
+## 1. THE GAME CONCEPT
+
+The game combines:
+
+- Wipeout: fast anti-gravity racing and futuristic vehicles.
+- Mario Kart: playful multiplayer competition, weapons,
+  power-ups, and accessible gameplay.
+- XCOM: tactical combat, RPG abilities, and a distinctive
+  military science-fiction look and feel.
+
+The core gimmick is a two-screen interaction model.
+
+MAIN SCREEN:
+A shared display showing the 3D racing game.
+
+SMARTPHONES:
+Each player uses their own phone as a controller.
+
+The phone's gyroscope controls steering, while its
+touchscreen handles actions, abilities, and tactical commands.
+
+Players can enter tactical moments during racing, allowing
+them to select actions and target opponents.
+
+For local multiplayer, we are considering synchronized
+tactical pulses in which the entire game enters slow motion.
+
+The game should combine the immediacy of arcade racing
+with the satisfaction of tactical RPG combat.
+
+---
+
+## 2. CREATIVE DIRECTION
+
+Our preferred aesthetic is:
+
+XCOM: Enemy Unknown × Wipeout
+
+With influences from:
+- XCOM 2
+- Mass Effect
+- Stylized military science fiction
+- Futuristic motorsport
+- Clean sci-fi industrial design
+
+IMPORTANT:
+
+We want the visual coolness of XCOM, the futuristic
+racing identity of Wipeout, and the playful gameplay
+of Mario Kart.
+
+We do NOT want the visuals to look like Mario Kart.
+
+The world should take itself seriously, even when
+the gameplay becomes chaotic and ridiculous.
+
+Think:
+- Sleek but chunky futuristic racing vehicles.
+- Angular armor plates and recognizable silhouettes.
+- Military-grade sci-fi materials.
+- Exposed energy systems and glowing engines.
+- Orbital installations and enormous space structures.
+- Sophisticated holographic tactical interfaces.
+- Dramatic lighting and strong composition.
+- Bold shapes and restrained surface detail.
+
+The result should feel stylish, exciting, and slightly
+exaggerated rather than photorealistic.
+
+Avoid generic neon cyberpunk, overly realistic military
+hardware, and excessively detailed spaceship designs.
+
+Do not reproduce existing games' characters, vehicles,
+logos, or proprietary designs.
+
+Develop an original aesthetic inspired by these references.
+
+---
+
+## 3. MOST IMPORTANT REQUIREMENT: CONSISTENCY
+
+Consistency is more important than complexity.
+
+Every asset must feel like it belongs to the same universe.
+
+Establish a strict visual design language covering:
+
+- Shape grammar
+- Vehicle proportions
+- Silhouette principles
+- Color palette
+- Materials and shaders
+- Surface detailing
+- Architecture
+- Lighting
+- UI and graphic design
+- Visual effects
+- Scale relationships
+
+Define clear rules that can be applied repeatedly
+when producing new assets.
+
+Include examples of what belongs in this universe
+and what does not.
+
+Our aesthetic should be identifiable even when
+assets are reduced to simple silhouettes.
+
+---
+
+## 4. 3D PRODUCTION CONSTRAINTS
+
+This is an early proof of concept.
+
+I want an art direction that can be recreated relatively
+quickly in Blender and eventually used in a real-time
+game engine.
+
+Favor:
+
+- Low-to-mid polygon geometry.
+- Strong silhouettes.
+- Simple, well-designed shapes.
+- Beveled hard surfaces.
+- Reusable modular components.
+- A small shared library of materials.
+- Minimal reliance on complex textures.
+- Optimized real-time assets.
+- Repeatable modeling processes.
+
+The game should achieve visual quality through
+art direction, composition, lighting, and materials,
+not sheer geometric complexity.
+
+Think of this as a small indie project with strong
+design ambitions.
+
+A simple asset with exceptional design is more
+valuable than a complicated generic asset.
+
+---
+
+## 5. YOUR TASKS
+
+### PHASE 1 — VISUAL RESEARCH
+
+Research the visual language of:
+
+- XCOM: Enemy Unknown
+- XCOM 2
+- Wipeout
+- Mass Effect
+- Relevant contemporary stylized sci-fi games
+
+Identify what makes their visual identities work.
+
+Focus especially on:
+
+- Shape language
+- Vehicle design
+- Material treatment
+- Environmental composition
+- Color management
+- Tactical interface design
+- Readability
+
+Create a concise visual reference board with
+real references and source links.
+
+Distinguish references from original designs.
+
+Do not simply combine unrelated aesthetics.
+
+Synthesize the references into ONE cohesive direction.
+
+### PHASE 2 — ART DIRECTION BIBLE
+
+Create a visual art direction document for STRIKE VECTOR.
+
+Include:
+
+1. Creative vision and visual identity.
+2. Moodboard and reference analysis.
+3. Shape language and design rules.
+4. Color palette with HEX values.
+5. Material library.
+6. Lighting guidelines.
+7. Vehicle design principles.
+8. Track and environment design principles.
+9. Gameplay effects.
+10. Main-screen HUD and phone UI.
+11. Tactical-mode visual treatment.
+12. 3D modeling conventions and constraints.
+
+Make this document visually driven.
+
+Use diagrams, annotated images, material swatches,
+silhouettes, and concrete examples wherever possible.
+
+The goal is a document that someone could use
+to model new assets without asking me how they
+should look.
+
+### PHASE 3 — VISUAL EXPLORATION
+
+Create original visual concepts that demonstrate
+the proposed aesthetic.
+
+Prioritize three images:
+
+IMAGE A: HERO VEHICLE
+
+A distinctive anti-gravity racing craft.
+
+Three-quarter view, clearly showing its silhouette,
+armor geometry, engines, materials, and proportions.
+
+IMAGE B: GAMEPLAY ENVIRONMENT
+
+A third-person gameplay composition featuring
+the hero vehicle racing through a futuristic orbital
+installation with a dramatic planet in the background.
+
+IMAGE C: TACTICAL MODE
+
+The same gameplay environment during a tactical
+slow-motion moment.
+
+Show targeting indicators, enemy highlighting,
+projected trajectories, and tactical visual effects.
+
+Additionally, explore the smartphone controller
+interface for both racing and tactical modes.
+
+Keep the vehicle, environment, and material language
+consistent across all images.
+
+Do not create disconnected concept art.
+
+These should feel like views of the SAME game.
+
+### PHASE 4 — FIRST 3D ASSETS
+
+Translate the approved design language into
+a practical 3D production approach.
+
+Start with:
+
+1. One hero racing vehicle.
+2. One modular track segment.
+3. One checkpoint or tactical pickup.
+
+For each asset, establish:
+
+- Dimensions and proportions.
+- Geometry breakdown.
+- Material assignments.
+- Reusable components.
+- Suggested polygon budget.
+- Naming conventions.
+- Real-time optimization considerations.
+
+Where tools permit, create actual usable 3D assets
+and export them in practical formats such as GLB.
+
+Otherwise, create Blender Python scripts that generate
+the starter geometry and materials.
+
+Do not describe a model as completed unless an actual
+usable file or script has been produced and verified.
+
+The aim is to move quickly from visual direction
+into assets that can be inspected and iterated.
+
+---
+
+## 6. MULTIPLAYER AND TACTICAL MODE
+
+Account for the unusual interaction model throughout
+the visual design.
+
+The main screen must remain readable with multiple
+vehicles on screen.
+
+The phone interface should feel like a physical
+control device belonging to the game's universe.
+
+RACING MODE:
+Fast, energetic, readable, visually spectacular.
+
+TACTICAL MODE:
+Time slows, tactical overlays appear, targets are
+highlighted, and abilities become available.
+
+The transition should be dramatic and satisfying.
+
+Design these as two visual states of the SAME world,
+not two disconnected art styles.
+
+Keep the interface practical for players who are
+physically tilting their phones to steer.
+
+---
+
+## 7. EXPECTED DELIVERABLES
+
+Produce, as capabilities allow:
+
+A. A visual art direction bible.
+B. A curated visual reference board.
+C. Original concept images of the vehicle and world.
+D. A racing-mode / tactical-mode visual comparison.
+E. A smartphone controller UI concept.
+F. A prioritized 3D asset production list.
+G. A reusable 3D modeling and material specification.
+H. A first usable 3D asset or reproducible Blender script.
+
+Organize outputs clearly for future iteration.
+
+Make all important specifications explicit, so the
+design language can be reused in later sessions.
+
+Prioritize useful creative artifacts over long
+written explanations.
+
+---
+
+## 8. HOW TO WORK WITH ME
+
+Behave like an experienced art director working
+with an indie game developer.
+
+Make strong design decisions and explain their purpose.
+
+Challenge ideas when they undermine consistency,
+readability, or production feasibility.
+
+Avoid presenting dozens of unrelated possibilities.
+
+Prefer one compelling direction, developed deeply.
+
+Keep the scope appropriate for a proof of concept.
+
+Do not begin by designing an entire game.
+
+Focus on establishing a convincing visual foundation
+and demonstrating that it can be translated into 3D.
+
+Start with visual research, the proposed design
+language, and the first hero vehicle concept.
+
+Create the initial work, then ask for my feedback
+before committing to a large collection of 3D assets.
+
+The ultimate objective is not just attractive concept art.
+
+It is to create a SMALL, COHESIVE, REPRODUCIBLE
+VISUAL UNIVERSE that we can turn into a real game.

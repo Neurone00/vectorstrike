@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+# Unity (project lives in Game/)
+Game/[Ll]ibrary/
+Game/[Tt]emp/
+Game/[Oo]bj/
+Game/[Bb]uild/
+Game/[Bb]uilds/
+Game/[Ll]ogs/
+Game/[Uu]ser[Ss]ettings/
+Game/*.csproj
+Game/*.sln
+Game/.vs/
+Game/.idea/
+# Blender
+*.blend1
+*.blend2
+# Node
+node_modules/
+# Local secrets / certs
+Tools/controller/certs/
+*.pem
+*.pem.off

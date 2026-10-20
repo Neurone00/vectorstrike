@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400">
+<rect x="0" y="0" width="2000" height="1400" fill="#E8E3D7" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="2000" height="150" fill="#252C30" stroke="none" stroke-width="1"/>
+<text x="48" y="44.019999999999996" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#79DDD0">REF_05  /  TRACK CONSTRUCTION v001</text>
+<text x="48" y="93.4" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#E8E3D7">ANCHOR RING  /  SECTIONS + JOINTS</text>
+<text x="48" y="128.29" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#B8B09A">Proposed profiles for art construction • dimensions in meters • road stays clear and continuous</text>
+<text x="60" y="214.57" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#252C30">01 / CROSS-SECTION</text>
+<polygon points="169.60,522.80 1614.40,522.80 1614.40,485.00 169.60,485.00" fill="#252C30" stroke="#252C30" stroke-width="2"/>
+<polygon points="169.60,485.00 220.00,485.00 220.00,396.80 204.88,384.20 184.72,384.20 169.60,396.80" fill="#B8B09A" stroke="#252C30" stroke-width="2"/>
+<polygon points="1564.00,485.00 1614.40,485.00 1614.40,396.80 1599.28,384.20 1579.12,384.20 1564.00,396.80" fill="#B8B09A" stroke="#252C30" stroke-width="2"/>
+<polyline points="220.00,485.00 1564.00,485.00" fill="none" stroke="#C18A32" stroke-width="4"/>
+<polyline points="220.00,295.00 1564.00,295.00" fill="none" stroke="#C18A32" stroke-width="2"/>
+<polyline points="215.00,290.00 225.00,300.00" fill="none" stroke="#C18A32" stroke-width="2"/>
+<polyline points="1559.00,290.00 1569.00,300.00" fill="none" stroke="#C18A32" stroke-width="2"/>
+<text x="902.0" y="286.29" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#C18A32">16.00 m clear deck</text>
+<polyline points="169.60,560.00 1614.40,560.00" fill="none" stroke="#C18A32" stroke-width="2"/>
+<polyline points="164.60,555.00 174.60,565.00" fill="none" stroke="#C18A32" stroke-width="2"/>
+<polyline points="1609.40,555.00 1619.40,565.00" fill="none" stroke="#C18A32" stroke-width="2"/>
+<text x="902.0" y="551.29" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#C18A32">17.20 m overall / proposed</text>
+<polyline points="1760.00,485.00 1760.00,384.20" fill="none" stroke="#C18A32" stroke-width="2"/>
+<polyline points="1755.00,480.00 1765.00,490.00" fill="none" stroke="#C18A32" stroke-width="2"/>
+<polyline points="1755.00,379.20 1765.00,389.20" fill="none" stroke="#C18A32" stroke-width="2"/>
+<text x="1770.0" y="425.89000000000004" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#C18A32">1.20 m</text>
+<text x="65" y="630.02" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#252C30">Deck thickness 0.45 m proposed. Barrier thickness 0.60 m, entirely outside 16 m driving envelope.</text>
+<text x="60" y="714.57" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#252C30">02 / STRAIGHT TO CURVE</text>
+<polygon points="180.00,956.00 430.00,956.00 434.76,956.03 439.53,956.12 444.29,956.28 449.05,956.50 453.81,956.78 458.56,957.12 463.31,957.53 468.05,957.99 472.78,958.52 477.51,959.11 482.23,959.77 486.94,960.48 491.64,961.26 496.33,962.10 501.01,962.99 505.68,963.95 510.33,964.98 514.97,966.06 519.60,967.20 524.21,968.40 528.80,969.67 533.38,970.99 537.94,972.37 542.48,973.82 547.00,975.32 551.51,976.88 555.99,978.50 560.45,980.18 564.88,981.91 569.30,983.71 573.69,985.56 578.05,987.47 582.39,989.44 586.71,991.46 590.99,993.54 595.25,995.67 599.48,997.86 603.69,1000.11 607.86,1002.41 612.00,1004.77 568.00,1080.98 564.86,1079.19 561.70,1077.45 558.51,1075.74 555.30,1074.08 552.07,1072.46 548.82,1070.89 545.55,1069.35 542.26,1067.86 538.95,1066.41 535.62,1065.01 532.27,1063.65 528.91,1062.33 525.53,1061.06 522.13,1059.83 518.72,1058.65 515.29,1057.51 511.85,1056.41 508.39,1055.37 504.92,1054.36 501.43,1053.40 497.94,1052.49 494.43,1051.63 490.91,1050.81 487.38,1050.03 483.84,1049.30 480.30,1048.62 476.74,1047.99 473.18,1047.40 469.60,1046.86 466.03,1046.36 462.44,1045.91 458.85,1045.51 455.25,1045.16 451.65,1044.85 448.05,1044.59 444.44,1044.38 440.84,1044.21 437.22,1044.09 433.61,1044.02 430.00,1044.00 180.00,1044.00" fill="#B8B09A" stroke="none" stroke-width="2"/>
+<polygon points="180.00,960.00 430.00,960.00 434.71,960.03 439.42,960.12 444.13,960.28 448.84,960.49 453.55,960.77 458.25,961.11 462.94,961.51 467.63,961.97 472.31,962.50 476.99,963.08 481.66,963.73 486.32,964.43 490.97,965.20 495.60,966.03 500.23,966.92 504.85,967.87 509.45,968.88 514.04,969.95 518.62,971.08 523.17,972.27 527.72,973.52 532.25,974.82 536.75,976.19 541.25,977.62 545.72,979.11 550.17,980.65 554.60,982.25 559.01,983.91 563.40,985.63 567.77,987.40 572.11,989.24 576.43,991.12 580.72,993.07 584.98,995.07 589.22,997.13 593.44,999.24 597.62,1001.40 601.78,1003.63 605.90,1005.90 610.00,1008.23 570.00,1077.51 566.81,1075.70 563.60,1073.93 560.37,1072.20 557.12,1070.52 553.84,1068.88 550.54,1067.28 547.22,1065.72 543.89,1064.21 540.53,1062.74 537.15,1061.31 533.76,1059.93 530.34,1058.60 526.91,1057.31 523.47,1056.06 520.00,1054.86 516.52,1053.70 513.03,1052.59 509.52,1051.53 506.00,1050.51 502.47,1049.54 498.92,1048.62 495.36,1047.74 491.80,1046.90 488.22,1046.12 484.63,1045.38 481.03,1044.69 477.42,1044.04 473.80,1043.45 470.18,1042.90 466.55,1042.40 462.91,1041.94 459.27,1041.53 455.62,1041.17 451.97,1040.86 448.31,1040.60 444.65,1040.38 440.99,1040.22 437.33,1040.10 433.67,1040.02 430.00,1040.00 180.00,1040.00" fill="#252C30" stroke="none" stroke-width="2"/>
+<polyline points="390.00,950.00 390.00,1050.00" fill="none" stroke="#C18A32" stroke-width="2"/>
+<text x="65" y="870.02" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#252C30">Straight repeat: 8 m. Straight barrier repeat: 4 m.</text>
+<polyline points="430.00,950.00 430.00,1050.00" fill="none" stroke="#C18A32" stroke-width="3"/>
+<polyline points="430.00,1045.00 430.00,955.00" fill="none" stroke="#E8E3D7" stroke-width="2"/>
+<polyline points="477.75,1049.18 493.38,960.55" fill="none" stroke="#E8E3D7" stroke-width="2"/>
+<polyline points="524.06,1061.58 554.84,977.01" fill="none" stroke="#E8E3D7" stroke-width="2"/>
+<polyline points="567.50,1081.84 612.50,1003.90" fill="none" stroke="#E8E3D7" stroke-width="2"/>
+<text x="65" y="785.02" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#252C30">Plan: shared tangent + exact matching width.</text>
+<text x="65" y="825.02" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#252C30">R64 / 30° is a library example, not the full circuit.</text>
+<text x="65" y="1129.11" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#252C30">Fit short barrier repeats to curves; do not bridge bends.</text>
+<text x="65" y="1169.11" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#252C30">Art seams must not create physical deck steps.</text>
+<text x="1050" y="714.57" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#252C30">03 / SUPPORT SIDE ELEVATION</text>
+<rect x="1100" y="870" width="740" height="43" fill="#252C30" stroke="none" stroke-width="1"/>
+<polygon points="1140.00,913.00 1230.00,913.00 1330.00,1080.00 1610.00,1080.00 1710.00,913.00 1800.00,913.00 1650.00,1150.00 1290.00,1150.00" fill="#B8B09A" stroke="#252C30" stroke-width="2"/>
+<polyline points="1240.00,920.00 1450.00,1080.00 1690.00,920.00" fill="none" stroke="#252C30" stroke-width="18"/>
+<text x="1080" y="1209.11" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#252C30">Repeat under modules; no unique damage mesh per piece.</text>
+<text x="48" y="1318.2" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#6C716D">Current engine track has variable curvature. Claude should preserve its route or explicitly revise it; R64 is not a forced replacement.</text>
+</svg>

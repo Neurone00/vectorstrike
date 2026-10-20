@@ -1,0 +1,342 @@
+{
+  "updated": "2026-10-20",
+  "scope": "one vehicle design, one track and necessary supporting assets",
+  "art_owner": "ChatGPT",
+  "mechanics_code_engine_owner": "Claude",
+  "images": [
+    {
+      "file": "Art/StrikeVector/concepts/SV_CON_001_Kestrel_APPROVED_BASE_v002.png",
+      "width": 1536,
+      "height": 1024,
+      "status": "user_approved_base",
+      "engine_ready": false
+    },
+    {
+      "file": "Art/StrikeVector/concepts/SV_CON_001_Kestrel_Emission_v004.png",
+      "width": 1536,
+      "height": 1024,
+      "status": "user_approved_look_and_feel",
+      "engine_ready": false,
+      "approval_scope": "Look and feel approved 2026-10-19; exact geometry, dimensions and engine implementation not yet verified."
+    },
+    {
+      "file": "Art/StrikeVector/concepts/SV_CON_002_AnchorRing_Context_v002.png",
+      "width": 1536,
+      "height": 1024,
+      "status": "user_approved_look_and_feel",
+      "engine_ready": false,
+      "approval_scope": "Look and feel approved 2026-10-19; exact geometry, dimensions and engine implementation not yet verified."
+    },
+    {
+      "file": "Art/StrikeVector/concepts/SV_CON_003_Tactical_Study_v001.png",
+      "width": 1536,
+      "height": 1024,
+      "status": "user_approved_look_and_feel",
+      "engine_ready": false,
+      "approval_scope": "Look and feel approved 2026-10-19; exact geometry, dimensions and engine implementation not yet verified."
+    },
+    {
+      "file": "Art/StrikeVector/concepts/SV_CON_004_TrackKit_v002.png",
+      "width": 1536,
+      "height": 1024,
+      "status": "user_approved_look_and_feel",
+      "engine_ready": false,
+      "approval_scope": "Look and feel approved 2026-10-19; exact geometry, dimensions and engine implementation not yet verified."
+    },
+    {
+      "file": "Art/StrikeVector/concepts/superseded/SV_CON_001_Kestrel_Graffiti_Exploration_v003.png",
+      "width": 1659,
+      "height": 948,
+      "status": "superseded_or_unselected",
+      "engine_ready": false
+    },
+    {
+      "file": "Art/StrikeVector/concepts/superseded/SV_CON_001_Kestrel_v001.png",
+      "width": 1536,
+      "height": 1024,
+      "status": "superseded_or_unselected",
+      "engine_ready": false
+    },
+    {
+      "file": "Art/StrikeVector/concepts/superseded/SV_CON_002_AnchorRing_v001.png",
+      "width": 1672,
+      "height": 941,
+      "status": "superseded_or_unselected",
+      "engine_ready": false
+    },
+    {
+      "file": "Art/StrikeVector/concepts/superseded/SV_CON_004_TrackKit_v001.png",
+      "width": 1774,
+      "height": 887,
+      "status": "superseded_or_unselected",
+      "engine_ready": false
+    }
+  ],
+  "production_art": [
+    {
+      "file": "Art/StrikeVector/production/references/REF_01_Kestrel_Construction_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        2000,
+        1400
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/production/references/REF_01_Kestrel_Construction_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/production/references/REF_05_Track_Profiles_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        2000,
+        1400
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/production/references/REF_05_Track_Profiles_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/production/references/REF_06_CurrentCircuit_Data_v001.json",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/production/references/REF_06_CurrentCircuit_Plan_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        2000,
+        1400
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/production/references/REF_06_CurrentCircuit_Plan_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/production/references/REF_08_Markings_Preview_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        2048,
+        1250
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/production/references/REF_08_Markings_Preview_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/production/references/REF_10_Phone_Layouts_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        2000,
+        1200
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/production/references/REF_10_Phone_Layouts_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_Markings_Atlas_v001.json",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_Markings_Atlas_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        2048,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_Markings_Atlas_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_crew_arrow_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_crew_arrow_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_direction_chevrons_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_direction_chevrons_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_hazard_patch_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_hazard_patch_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_number_01_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_number_01_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_number_02_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_number_02_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_number_03_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_number_03_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_number_04_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_number_04_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_tallies_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/decals/SV_GFX_tallies_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/ui/SV_UI_Plan_Study_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        390,
+        844
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/ui/SV_UI_Plan_Study_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/ui/SV_UI_Pulse_Study_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        390,
+        844
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/ui/SV_UI_Pulse_Study_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    },
+    {
+      "file": "Art/StrikeVector/assets/ui/SV_UI_Race_Study_v001.png",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false,
+      "size_px": [
+        390,
+        844
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "Art/StrikeVector/assets/ui/SV_UI_Race_Study_v001.svg",
+      "status": "new_art_proposal_unapproved",
+      "engine_import_verified": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "strike-vector-controller",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Phone controller relay for STRIKE VECTOR (static page + WebSocket relay)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
