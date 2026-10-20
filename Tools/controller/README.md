@@ -45,6 +45,12 @@ yes | sdkmanager --licenses >/dev/null && sdkmanager "platform-tools" "platforms
 cd Tools/controller/android && gradle assembleDebug
 ```
 
+Auto-update: on every launch the app reads the latest GitHub release of this repo; if its tag
+`controller-vX.Y` is newer than the installed version it downloads the APK (system download
+notification) and opens the installer, which asks for one confirmation. The first time, Android
+asks to allow installs from "SV Controller". Publish a new version with `./android/release.sh X.Y
+"notes"` (bumps versionCode, builds, creates the release); never reuse a version.
+
 Install: download the APK from the GitHub release
 https://github.com/Neurone00/vectorstrike/releases/latest on the phone and open it
 (allow "install unknown apps" for the browser once). Alternatives: with the server running,

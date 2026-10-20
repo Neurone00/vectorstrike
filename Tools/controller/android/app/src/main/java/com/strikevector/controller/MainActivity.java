@@ -28,6 +28,7 @@ public class MainActivity extends Activity implements SensorEventListener {
         setContentView(web);
         web.loadUrl("file:///android_asset/race.html");
         sensors = (SensorManager) getSystemService(SENSOR_SERVICE);
+        Updater.check(this);
     }
 
     @Override protected void onResume() {
